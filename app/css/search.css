@@ -1,0 +1,29 @@
+.search-page {
+	width: 100%;
+	min-height: 100vh;
+	height: auto;
+	background: #f5f5f5;
+	overflow-x: hidden;
+}
+
+.search-page .nav {
+	width: 100%;
+	height: auto;
+	min-height: 100px;
+	background: #fefefe;
+	box-shadow: 0px 2px 17px -5px rgba(200, 200, 200, 0.5);
+}
+
+.search-page .outlet {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+	overflow-x: hidden;
+}
+
+@media screen and (max-width: 600px) {
+	.search-page .outlet {
+		width: 100%;
+	}
+}
